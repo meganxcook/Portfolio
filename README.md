@@ -1,2 +1,5 @@
 # Portfolio
-megan x cook | Junior Software Developer
+Megan Cook | Junior Software Developer
+
+Based in Vancouver, WA, US
+
