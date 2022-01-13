@@ -18,191 +18,134 @@
 </head>
 
 <body>
-    <header>
+    <!-- Header -->
+    <header id="header">
         <!-- <div class="logo">
             <a href="index.html" class="logo__item">
                 <img src="images/logo-accent.png" alt="">
             </a>
         </div> -->
+
         <button class="nav-toggle" aria-label="toggle navigation">
-                    <span class="hamburger"></span>
-                </button>
+            <span class="hamburger"></span>
+        </button>
+
         <nav class="nav">
             <ul class="nav__list">
                 <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-                <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
                 <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
                 <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                <li class="nav__item"><a href="#experience" class="nav__link">Experience</a></li>
+                <li class="nav__item"><a href="#education" class="nav__link">Education</a></li>
                 <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
             </ul>
         </nav>
+
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I'm <strong>Megan Cook</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Implementation Specialist</p>
+            <img src="images/megan-01.jpg" alt="a picture of Megan smiling" class="intro__img">
+            <a href="#projects" class="btn">View My Projects</a>
+            <a href="#contact" class="btn">Get In Touch</a>
+        </section>
+
+        <button id="btn-scroll-to-top">
+            <i class="fas fa-arrow-up"></i>    
+        </button>
     </header>
-
-    <!-- Introduction -->
-    <section class="intro" id="home">
-        <h1 class="section__title section__title--intro">
-            Hi, I'm <strong>Megan Cook</strong>
-        </h1>
-        <p class="section__subtitle section__subtitle--intro">Implementation Specialist</p>
-        <img src="images/megan-01.jpg" alt="a picture of Megan smiling" class="intro__img">
-    </section>
-
 
     <!-- About me -->
     <section class="about-me" id="about">
         <h2 class="section__title section__title--about">About</h2>
-        <p class="section__subtitle section__subtitle--about">Implementation Specialist based in Vanvouver, WA</p>
+        <p class="section__subtitle section__subtitle--about">Coding Bootcamp Grad Seeking Implementation Specialist Role</p>
 
         <div class="about-me__body">
-            <p> Hi, I'm Megan Cook, a <a href="https://pdxcodeguild.com/" target="top" class="about-link">PDX Code Guild</a> full stack bootcamp grad and early career implementation specialist based in Vancouver, WA. I've been coding since early 2021 and
-                dreaming of a career in tech for several years. I'm exploring pathways in project management and product management.</p>
-            <p>I’ve been a midwife, a doula, a real estate agent, stay-at-home parent, clinical researcher, small business consultant, server, and retail associate. So I guess you could say I come to tech from a non traditional background.</p>
-            <p>Clients and colleagues would describe me as a strong communicator, particularly skilled at collaborating with multiple stakeholders and translating complex challenges into actionable steps and win-win outcomes. Clients may share that I strive
-                to deliver an exceptional client experience through active listening, informed choice, and managing expectations. Colleagues would tell you about my systematic and data-driven approach to every task, my attention to detail, my calm demeanor
-                and optimistic outlook. In short, I'm coachable, empathetic, and hungry to learn.</p>
+            <p> Hi, I'm Megan Cook, a <a href="https://pdxcodeguild.com/" target="top" class="about-link">PDX Code Guild</a> full stack bootcamp grad and early career implementation specialist based in <a href="https://www.google.com/maps/place/Vancouver,+WA/@45.6381163,-122.6889994,12z/data=!3m1!4b1!4m5!3m4!1s0x5495af63c85914f9:0x8456d5112c91e3f3!8m2!3d45.6280277!4d-122.673865"
+                    target="top" class="about-link">Vancouver, WA</a>. I've been coding since early 2021 and actively pursuing a career in tech, exploring pathways in project management and product management.</p>
+            <p>I’ve been a midwife, a doula, a real estate agent, stay-at-home parent, clinical researcher, small business owner and consultant, server, and retail associate. So I guess you could say I come to tech from a non traditional background.</p>
+            <p><strong><i class="fas fa-quote-left"></i>  Clients and colleagues would describe me as a strong communicator, particularly skilled at collaborating with multiple stakeholders and translating complex challenges into actionable steps and win-win outcomes.  <i class="fas fa-quote-right"></i></strong></p>
+            <p>Clients may share that I strive to deliver an exceptional client experience through active listening, informed choice, and managing expectations. Colleagues would tell you about my systematic and data-driven approach to every task, my attention
+                to detail, my calm demeanor and optimistic outlook. In short, I'm coachable, empathetic, and hungry to learn.</p>
             <p>I get fired up about access to quality midwifery care and closing that maternal health care gap. I believe all people should thrive so I'd like to pair my tech skills with social justice. Seeking a comrade for the revolution?</p>
             <p>If you’re hiring and think I'd be a good fit, please check out my <a href="downloads/Resume-MeganCook_01012022-ImplementationSpecialist_logo.pdf" target="top" class="about-link">resume</a> and <a href="mailto:megan@meganxcook.com?subject=I saw your portfolio - let's chat!"
-                    target="top" class="about-link">start a conversation</a>.</p>
+                    target="top" class="about-link">start a conversation</a>. If you just want to connect or collaborate on a project, please <a href="mailto:megan@meganxcook.com?subject=I saw your portfolio - let's chat!" target="top" class="about-link">reach out</a>!</p>
         </div>
 
         <img src="images/megan-02.jpg" alt="Megan laughing with hands clasped in front of her" class="about-me__img">
 
     </section>
 
-
-    <!-- My skills -->
-    <section class="my-skills" id="skills">
-        <h2 class="section__title section__title--skills">Skills</h2>
-        <div class="skills">
-            <div class="skills">
-                <h3>Programming Languages</h3>
-                <ul>
-                    <li>Python</li>
-                </ul>
-            </div>
-            <!-- / skill -->
-
-            <div class="skills">
-                <h3>Frameworks</h3>
-                <ul>
-                    <li>Django</li>
-                    <li>Flask</li>
-                    <li>Bootstrap</li>
-                </ul>
-            </div>
-            <!-- / skill -->
-
-            <div class="skill">
-                <h3>Web Languages</h3>
-                <ul>
-                    <li>HTML5</li>
-                    <li>CSS3</li>
-                    <li>JavaScript</li>
-                </ul>
-            </div>
-            <!-- / skill -->
-
-            <div class="skill">
-                <h3>Tools</h3>
-                <ul>
-                    <li>Visual Studio Code</li>
-                    <li>GitHub</li>
-                    <li>Jira</li>
-                    <li>Google Suite</li>
-                    <li>MS Office</li>
-                    <li>CRM Software</li>
-                </ul>
-            </div>
-            <!-- / skill -->
-
-            <div class="skill">
-                <h3>Methodologies</h3>
-                <ul>
-                    <li>Agile</li>
-                </ul>
-            </div>
-            <!-- / skill -->
-
-            <div class="skill">
-                <h3>Interpersonal</h3>
-                <ul>
-                    <li>Empathetic</li>
-                    <li>Active Listening</li>
-                    <li>Expectation Management</li>
-                </ul>
-            </div>
-            <!-- / skill -->
-
-            <div class="skill">
-                <h3>Professional</h3>
-                <ul>
-                    <li>Project Coordination</li>
-                    <li>Process Improvement</li>
-                    <li>Organized</li>
-                    <li>Attentive to Detail</li>
-                </ul>
-            </div>
-            <!-- / skill -->
-        </div>
-        <!-- / skills -->
-
-        <a href="#projects" class="btn">My Projects</a>
-    </section>
-
-
     <!-- Interests -->
-    <section>
-        <div class="interests-flip-cards">
+    <section class="my-interests">
 
-            <div class="flip-card">
-                <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                        <h3>Professional Interests</h3>
-                    </div>
-                    <div class="flip-card-back">
-                        <h3>Professional Interests</h3>
-                        <p>♿ Accessibility</p>
-                        <p>🔃 The product lifecycle</p>
-                        <p>🧑‍💻 UX Design/CX</p>
-                    </div>
+        <div class="card-flip">
+            <div class="card-flip__content">
+
+                <div class="card-flip__front card-flip__front-personal">
+                    <h3 class="card-flip__title">Personal</h3>
+                    <p class="card-flip__subtitle">Interests</p>
                 </div>
-            </div>
 
-            <div class="flip-card">
-                <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                        <h3>Personal Interests</h3>
-                    </div>
-                    <div class="flip-card-back">
-                        <h3>Personal Interests</h3>
-                        <p>🥘 Sharing food with my people</p>
-                        <p>🎸 Live music</p>
-                        <p>✊ Politics</p>
-                        <p>🌆 Travel</p>
-                        <p>☀️ Catching rays</p>
-                    </div>
+                <div class="card-flip__back">
+                    <ul class="card-flip__body">
+                        <li>🥘 Sharing food with friends</li>
+                        <li>🎸 Live music</li>
+                        <li>✊ Politics</li>
+                        <li>🌆 Travel</li>
+                        <li>☀️ Catching rays</li>
+                    </ul>
                 </div>
-            </div>
 
-            <div class="flip-card">
-                <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                        <h3>PNW Restaurant Recs</h3>
-                    </div>
-                    <div class="flip-card-back">
-                        <h3>PNW Restaurant Recs</h3>
-                        <p>🧄 Best hummus: <a href="https://www.tuskpdx.com/" target="top" class="about-link">Tusk</a></p>
-                        <p>🍷 Best wine: <a href="https://www.damerestaurant.com/" target="top" class="about-link">Dame</a></p>
-                        <p>🌮 Best tacos: <a href="https://littleconejo.com/" target="top" class="about-link">Little Conejo</a></p>
-                        <p>🥟 Best dumplings: <a href="https://www.tokipdx.com/" target="top" class="about-link">Toki</a></p>
-                        <p>You're welcome 😉</p>
-                    </div>
+            </div>
+        </div>
+
+        <div class="card-flip">
+            <div class="card-flip__content">
+
+                <div class="card-flip__front card-flip__front-professional">
+                    <h3 class="card-flip__title">Professional</h3>
+                    <p class="card-flip__subtitle">Interests</p>
                 </div>
-            </div>
 
+                <div class="card-flip__back">
+                    <ul class="card-flip__body">
+                        <li>♿ Accessibility</li>
+                        <li>🔃 The product lifecycle</li>
+                        <li> 🧑‍💻 UX Design/CX</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="card-flip">
+            <div class="card-flip__content">
+
+                <div class="card-flip__front card-flip__front-restaurant">
+                    <h3 class="card-flip__title">Restaurant</h3>
+                    <p class="card-flip__subtitle">Recommendations</p>
+                </div>
+
+                <div class="card-flip__back">
+                    <ul class="card-flip__body">
+                        <li>🧄 Best hummus: <a href="https://www.tuskpdx.com/" target="top" class="about-link">Tusk</a></li>
+                        <li>🍷 Best wine: <a href="https://www.damerestaurant.com/" target="top" class="about-link">Dame</a></li>
+                        <li>🌮 Best tacos: <a href="https://littleconejo.com/" target="top" class="about-link">Little Conejo</a></li>
+                        <li>🥟 Best dumplings: <a href="https://www.tokipdx.com/" target="top" class="about-link">Toki</a></li>
+                        <br>
+                        <p>
+                            <center>You're welcome 😉</center>
+                        </p>
+                    </ul>
+                </div>
+
+            </div>
         </div>
     </section>
-
 
     <!-- My Projects -->
     <section class="my-projects" id="projects">
@@ -280,6 +223,235 @@
         </div>
     </section>
 
+    <!-- My skills -->
+    <section class="my-skills" id="skills">
+        <h2 class="section__title section__title--skills">Skills</h2>
+
+        <div class="skills-cards">
+
+            <div class="card-float">
+                <h2>
+                    <i class="fas fa-code"></i>
+                </h2>
+                <br>
+                <h3 class="card-float__title">Languages + Frameworks</h3>
+                <ul>
+                    <li>Python</li>
+                    <li>Django</li>
+                    <li>Flask</li>
+                    <li>Bootstrap</li>
+                </ul>
+            </div>
+
+            <div class="card-float">
+                <h2>
+                    <i class="fas fa-laptop-code"></i>
+                </h2>
+                <br>
+                <h3 class="card-float__title">Web Design</h3>
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                </ul>
+            </div>
+
+            <div class="card-float">
+                <h2>
+                    <i class="fas fa-drafting-compass"></i>
+                </h2>
+                <br>
+                <h3 class="card-float__title">Tools + Methodologies</h3>
+                <ul>
+                    <li>Visual Studio Code</li>
+                    <li>GitHub</li>
+                    <li>Jira</li>
+                    <li>Google Suite</li>
+                    <li>MS Office</li>
+                    <li>CRM Software</li>
+                    <li>Agile</li>
+                </ul>
+            </div>
+
+            <div class="card-float">
+                <h2>
+                    <i class="fas fa-comments"></i>
+                </h2>
+                <br>
+                <h3 class="card-float__title">Interpersonal</h3>
+                <ul>
+                    <li>Empathy</li>
+                    <li>Teamwork</li>
+                    <li>Active Listening</li>
+                    <li>Expectation Management</li>
+                </ul>
+            </div>
+
+            <div class="card-float">
+                <h2>
+                    <i class="fas fa-cubes"></i>
+                </h2>
+                <br>
+                <h3 class="card-float__title">Professional</h3>
+                <ul>
+                    <li>Project Management</li>
+                    <li>Process Improvement</li>
+                    <li>Client Consulting</li>
+                    <li>Documentation</li>
+                </ul>
+            </div>
+
+
+
+            <!-- <div class="skills">
+            <div class="skill">
+                <h3>Programming Languages + Frameworks</h3>
+                <i class="fas fa-code"></i>
+                <ul>
+                    <li>Python</li>
+                    <li>Django</li>
+                    <li>Flask</li>
+                    <li>Bootstrap</li>
+                </ul>
+            </div> -->
+
+            <!-- / skill -->
+
+            <!-- <div class="skill">
+                <h3>Web</h3>
+                <i class="fas fa-laptop-code"></i>
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                    <li>Website Design</li>
+                </ul>
+            </div> -->
+
+            <!-- / skill -->
+
+            <!-- <div class="skill">
+                <h3>Tools + Methodologies</h3>
+                <i class="fas fa-drafting-compass"></i>
+                <ul>
+                    <li>Visual Studio Code</li>
+                    <li>GitHub</li>
+                    <li>Jira</li>
+                    <li>Google Suite</li>
+                    <li>MS Office</li>
+                    <li>CRM Software</li>
+                    <li>Agile</li>
+                </ul>
+            </div> -->
+
+            <!-- / skill -->
+
+            <!-- <div class="skill">
+                <h3>Interpersonal</h3>
+                <i class="fas fa-people-arrows"></i>
+                <ul>
+                    <li>Empathy</li>
+                    <li>Teamwork</li>
+                    <li>Active Listening</li>
+                    <li>Expectation Management</li>
+                </ul>
+            </div> -->
+
+            <!-- / skill -->
+
+            <!-- <div class="skill">
+                <h3>Professional</h3>
+                <i class="fa-solid fa-cubes"></i>
+                <ul>
+                    <li>Project Management</li>
+                    <li>Process Improvement</li>
+                    <li>Client Consulting</li>
+                    <li>Documentation</li>
+                </ul>
+            </div> -->
+
+            <!-- / skill -->
+
+        </div>
+
+        <!-- / skills -->
+    </section>
+
+    <section class="my-skills">
+        <h2>Strengths</h2>
+        <ul>
+            <i class="fas fa-comments"></i>
+            <li>Skilled communicator</li>
+            <i class="fas fa-sitemap"></i>
+            <li>Systematic</li>
+            <i class="fas fa-hand-rock"></i>
+            <li>Unflappable</li>
+            <i class="fas fa-forward"></i>
+            <li>Persistent</li>
+        </ul>
+    </section>
+
+    <section class="my-skills">
+        <h2>Values</h2>
+        <ul>
+            <i class="fas fa-hand-peace"></i>
+            <li>Authenticity</li>
+            <i class="fas fa-equals"></i>
+            <li>Equity</li>
+            <i class="fas fa-hands-helping"></i>
+            <li>Accountability</li>
+            <i class="fas fa-hand-holding-heart"></i>
+            <li>Community</li>
+        </ul>
+    </section>
+
+    <!-- Experience -->
+    <section class="my-experience" id="experience">
+        <div class="experience">
+            <h2>Experience</h2>
+            <div>
+                <h2>1 year</h2>
+                <h3>Full Stack Developement</h3>
+            </div>
+            <div>
+                <h2>4 years</h2>
+                <h3>Client Consulting</h3>
+            </div>
+            <div>
+                <h2>5 years</h2>
+                <h3>Operations + Support</h3>
+            </div>
+            <div>
+                <h2>5 years</h2>
+                <h3>Small Business Marketing</h3>
+            </div>
+            <div>
+                <h2>3 years</h2>
+                <h3>Clinical Research</h3>
+            </div>
+            <div>
+                <h2>4 years</h2>
+                <h3>Healthcare</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education -->
+    <section class="my-education" id="education">
+        <h2>Education</h2>
+        <div class="degrees">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <h3><strong>Bachelor's Degree</strong> in Women's + Gender Studies</h3>
+            <h4>University of Oregon (2010)</h4>
+        </div>
+
+        <div class="certificates">
+            <i class="fa-solid fa-award"></i>
+            <h3><strong>Certificate</strong> in Full Stack Development</h3>
+            <h4>PDX Code Guild (2021)</h4>
+        </div>
+
+    </section>
 
     <!-- Footer -->
     <footer class="footer" id="contact">
