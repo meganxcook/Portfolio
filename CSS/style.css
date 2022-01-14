@@ -360,6 +360,7 @@ header::before {
 
 .about-me__img {
     box-shadow: var(--bs);
+    border-radius: 16px;
 }
 
 .about-link {
@@ -447,7 +448,7 @@ header::before {
 }
 
 .card-flip__front-personal {
-    background-image: url(../images/spencer-davis-naFHFLV5cqU-unsplash.jpg);
+    background-image: url(../images/sebastian-ervi-uCZVEo8iT9Q-unsplash.jpg);
 }
 
 .card-flip__front-professional {
