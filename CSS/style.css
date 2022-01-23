@@ -165,13 +165,16 @@ h3 {
     background: var(--clr-accent);
     padding: .25em 1em;
     font-family: var(--ff-secondary);
+    letter-spacing: .2rem;
     margin-bottom: 1em;
 }
 
-.section__subtitle--work {
+.section__subtitle--projects,
+.section__subtitle--skills {
     color: var(--clr-accent);
     font-weight: var(--fw-bold);
     margin-bottom: 2em;
+    letter-spacing: .2rem;
 }
 
 
@@ -506,6 +509,9 @@ header::before {
 }
 
 
+/* @media */
+
+
 /* My Projects */
 
 .my-projects {
@@ -520,7 +526,7 @@ header::before {
 }
 
 .portfolio__item {
-    background: var(--clr-dark);
+    background: var(--clr-light);
     overflow: hidden;
 }
 
@@ -549,7 +555,7 @@ header::before {
 .my-skills {
     display: grid;
     position: relative;
-    height: 100vh;
+    /* height: 100vh; */
     width: 100%;
     background-color: var(--clr-dark);
     color: var(--clr-light);
@@ -607,20 +613,25 @@ header::before {
 }
 
 .skills-cards {
-    display: flex;
+    display: grid;
+    /* grid-template-columns: repeat(3, 1fr); */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2em;
 }
 
 .card-float {
     width: 300px;
+    height: 400px;
     padding: 1em;
     margin: 1em;
+    flex: 1;
     text-align: center;
     position: relative;
     background-color: var(--clr-accent);
     color: var(--clr-light);
     border-radius: 16px;
     box-shadow: var(--bs);
-    /* opacity: .7; */
+    opacity: .8;
 }
 
 .card-float:hover {
@@ -630,16 +641,64 @@ header::before {
 .card-float__title {
     font-family: var(--ff-secondary);
     text-transform: uppercase;
+    letter-spacing: .2rem;
 }
 
 
 /* Strengths + Values */
 
+.my-strengths .my-values {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
 
 /* Experience */
 
 .my-experience {
+    display: grid;
     background-color: var(--clr-dark);
+    color: var(--clr-light);
+    text-align: center;
+}
+
+.experience-bubble-1 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: var(--clr-accent);
+    color: var(--clr-light);
+    text-align: center;
+}
+
+.experience-bubble-3 {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: var(--clr-accent);
+    color: var(--clr-light);
+    text-align: center;
+}
+
+.experience-bubble-4 {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: var(--clr-accent);
+    color: var(--clr-light);
+    text-align: center;
+}
+
+.experience-bubble-5 {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background-color: var(--clr-accent);
     color: var(--clr-light);
     text-align: center;
 }
