@@ -14,7 +14,9 @@ I’ve been a midwife, doula, real estate agent, stay-at-home parent, clinical r
 
 ***Clients and colleagues would describe me as a strong communicator, particularly skilled at collaborating with multiple stakeholders and translating complex challenges into actionable steps and win-win outcomes.***
 
-Clients may share that I strive to deliver an exceptional client experience through active listening, informed choice, and managing expectations. Colleagues would tell you about my systematic and data-driven approach to every task, my attention to detail, my calm demeanor and optimistic outlook. In short, I'm coachable, empathetic, and hungry to learn. 
+Clients may share that I strive to deliver an exceptional client experience through active listening, informed choice, and managing expectations. Colleagues would tell you about my systematic and data-driven approach to every task, my attention to detail, my calm demeanor and optimistic outlook. 
+
+***In short, I'm coachable, empathetic, and hungry to learn.***
 
 I get fired up about access to quality midwifery care and closing that maternal health care gap. I believe all people should thrive so I like to pair my tech skills with social justice. Seeking a comrade for the revolution?
 
@@ -22,19 +24,25 @@ If you’re hiring and think I'd be a good fit, please check out my [resume](dow
 
 **PROJECTS**
 
-1. C. Cook LLC
-    * Website for a residential contracting business:
+1. [C. Cook LLC](https://www.ccookllc.com/)
+    * Website for a residential contracting business.
         * HTML
         * CSS
+        * Squarespace
+        * Branding
 
-2. Cycle. App
-    * An inclusive menstrual cycle tracking app:
+2. [Cycle. App](https://cycle-app.io)
+    * An inclusive, customizable menstrual cycle tracking app for menstruating people.
         * Django
         * HTML
         * CSS
         * JS
 
-3. Others coming soon...
+3. Various [CodePen](https://codepen.io/meganxcook) projects
+    * 3D flip cards, cards with shadow hover effect, buttons, etc.
+        * HTML
+        * CSS
+        * JS
 
 **SKILLS**
 
