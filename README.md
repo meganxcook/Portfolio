@@ -31,7 +31,7 @@ If you’re hiring and think I'd be a good fit, please check out my [resume](dow
         * Squarespace
         * Branding
 
-2. [Cycle. App](https://cycle-app.io)
+2. [Cycle. App](cycle-app.html)
     * An inclusive, customizable menstrual cycle tracking app for menstruating people.
         * Django
         * HTML
