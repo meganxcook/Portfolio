@@ -515,8 +515,8 @@ header::before {
 /* My Projects */
 
 .my-projects {
-    background-color: var(--clr-light);
-    color: var(--clr-dark);
+    background-color: var(--clr-dark);
+    color: var(--clr-light);
     text-align: center;
 }
 
@@ -526,7 +526,7 @@ header::before {
 }
 
 .portfolio__item {
-    background: var(--clr-light);
+    background: var(--clr-dark);
     overflow: hidden;
 }
 
@@ -557,12 +557,13 @@ header::before {
     position: relative;
     /* height: 100vh; */
     width: 100%;
-    background-color: var(--clr-dark);
-    color: var(--clr-light);
+    background-color: var(--clr-light);
+    color: var(--clr-accent);
     text-align: center;
 }
 
-.my-skills::before {
+
+/* .my-skills::before {
     content: "";
     background-image: url(../images/skills-bg.jpg);
     background-size: cover;
@@ -573,7 +574,7 @@ header::before {
     bottom: 0px;
     left: 0px;
     opacity: 0.1;
-}
+} */
 
 .section__title--skills {
     color: var(--clr-accent);
@@ -631,7 +632,7 @@ header::before {
     color: var(--clr-light);
     border-radius: 16px;
     box-shadow: var(--bs);
-    opacity: .8;
+    /* opacity: .8; */
 }
 
 .card-float:hover {
@@ -662,9 +663,34 @@ header::before {
 
 .my-experience {
     display: grid;
+    position: relative;
     background-color: var(--clr-dark);
     color: var(--clr-light);
     text-align: center;
+    /* height: 100vh; */
+    width: 100%;
+    text-align: center;
+}
+
+.my-experience::before {
+    content: "";
+    background-image: url(../images/skills-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.1;
+}
+
+.bubbles {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 0;
+    text-align: center;
+    vertical-align: middle;
 }
 
 .experience-bubble-1 {
