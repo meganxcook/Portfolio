@@ -90,8 +90,8 @@ If you’re hiring and think I'd be a good fit, please check out my [resume](dow
 **CONTACT**
 
 * [Email me](mailto:megan@meganxcook.com)
-* [Download my resume](downloads/Resume-MeganCook-12312021-ImplementationSpecialist.pdf)
-* [View my porfolio](www.meganxcook.com)
+* [Download my resume](downloads/Resume-MeganCook_01112022-ImplementationSpecialist_logo.pdf)
+* [View my porfolio](https://www.meganxcook.com)
 * Connect with me on social: 
     * [LinkedIn](https://www.linkedin.com/in/meganxcook/)
     * [GitHub](https://github.com/meganxcook)
