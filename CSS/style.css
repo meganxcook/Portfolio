@@ -379,7 +379,7 @@ header::before {
     .about-me {
         display: grid;
         grid-template-columns: 1fr 200px;
-        grid-template-areas: "title img" "subtitle img" "text img";
+        grid-template-areas: "text img" "title img" "subtitle img";
         grid-column-gap: 2em;
     }
     .section__title--about {
