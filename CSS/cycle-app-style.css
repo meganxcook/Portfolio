@@ -51,8 +51,7 @@ section {
 }
 
 img {
-    display: block;
-    max-width: 100%;
+    max-width: 800px;
 }
 
 ul {
@@ -138,15 +137,29 @@ h3 {
     font-size: var(--fs-h3)
 }
 
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+    width: 40%;
+}
+
 .intro-title {
     margin-bottom: .25em;
     font-size: 75px;
     text-transform: capitalize;
 }
 
+.screenshots {
+    /* background-color: var(--clr-dark); */
+    box-shadow: var(--bs);
+}
+
 .section__title {
     margin-bottom: .25em;
     text-transform: uppercase;
+    /* color: var(--clr-light); */
 }
 
 .section__subtitle {
@@ -158,4 +171,8 @@ h3 {
 .about .tagline {
     max-width: 800px;
     text-align: center;
+}
+
+.footer {
+    background-image: linear-gradient(to top right, var(--clr-ltblue), var(--clr-accent));
 }

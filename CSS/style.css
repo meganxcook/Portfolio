@@ -78,23 +78,33 @@ strong {
 /* Buttons */
 
 .btn {
-    display: inline-block;
+    display: flex;
     padding: .5em 2.5em;
-    background: var(--clr-accent);
+    margin-bottom: 2em;
+    height: 45px;
+    width: 300px;
+    /* background: var(--clr-accent); */
+    background: transparent;
     color: var(--clr-dark);
     text-decoration: none;
+    text-align: center;
+    justify-content: center;
     font-family: var(--ff-secondary);
     cursor: pointer;
-    font-size: .8rem;
+    font-size: 1rem;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: .2rem;
     font-weight: bold;
     transition: transform 200ms ease-in-out;
-    border-radius: 16px;
+    /* border-radius: 16px; */
+    border: 2px solid var(--clr-accent);
 }
 
 .btn:hover {
-    transform: scale(1.1);
+    /* transform: scale(1.1); */
+    border: 2px solid var(--clr-accent);
+    background: var(--clr-accent);
+    color: var(--clr-light);
 }
 
 #btn-scroll-to-top {
@@ -327,6 +337,12 @@ header::before {
     display: inline-block;
 }
 
+.pronouns {
+    font-weight: var(--fw-bold);
+    text-align: center;
+    color: var(--clr-light);
+}
+
 @media (min-width: 600px) {
     .intro {
         display: grid;
@@ -363,7 +379,7 @@ header::before {
 
 .about-me__img {
     box-shadow: var(--bs);
-    border-radius: 16px;
+    /* border-radius: 16px; */
 }
 
 .about-link {
@@ -379,7 +395,7 @@ header::before {
     .about-me {
         display: grid;
         grid-template-columns: 1fr 200px;
-        grid-template-areas: "text img" "title img" "subtitle img";
+        grid-template-areas: "title img" "subtitle img""text img";
         grid-column-gap: 2em;
     }
     .section__title--about {
@@ -406,7 +422,7 @@ header::before {
 
 .my-interests {
     background-color: var(--clr-light);
-    display: flex;
+    display: grid;
     padding: 2em;
     justify-content: center;
 }
@@ -554,6 +570,7 @@ header::before {
 
 .my-skills {
     display: grid;
+    /* justify-content: center; */
     position: relative;
     /* height: 100vh; */
     width: 100%;
@@ -685,7 +702,179 @@ header::before {
     opacity: 0.1;
 }
 
-.bubbles {
+
+/* Bar Graph Horizontal */
+
+.bar-graph .experience-description {
+    -webkit-animation: fade-in-text 2.2s 0.1s forwards;
+    -moz-animation: fade-in-text 2.2s 0.1s forwards;
+    animation: fade-in-text 2.2s 0.1s forwards;
+    opacity: 0;
+}
+
+.bar-graph-horizontal {
+    max-width: 600px;
+}
+
+.bar-graph-horizontal>div {
+    float: left;
+    margin-bottom: 8px;
+    width: 100%;
+}
+
+.bar-graph-horizontal .experience-description {
+    float: left;
+    margin-top: 18px;
+    width: 300px;
+}
+
+.bar-graph-horizontal .bar {
+    /* border-radius: 3px; */
+    height: 55px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    width: 0;
+}
+
+.bar-graph-one .bar::after {
+    -webkit-animation: fade-in-text 2.2s 0.1s forwards;
+    -moz-animation: fade-in-text 2.2s 0.1s forwards;
+    animation: fade-in-text 2.2s 0.1s forwards;
+    color: var(--clr-light);
+    content: attr(data-percentage);
+    font-weight: var(--fw-bold);
+    position: absolute;
+    right: 16px;
+    top: 17px;
+}
+
+.bar-graph-one .bar-one .bar {
+    background-color: var(--clr-accent);
+    -webkit-animation: show-bar-one 1.2s 0.1s forwards;
+    -moz-animation: show-bar-one 1.2s 0.1s forwards;
+    animation: show-bar-one 1.2s 0.1s forwards;
+}
+
+.bar-graph-one .bar-two .bar {
+    background-color: var(--clr-accent);
+    -webkit-animation: show-bar-two 1.2s 0.2s forwards;
+    -moz-animation: show-bar-two 1.2s 0.2s forwards;
+    animation: show-bar-two 1.2s 0.2s forwards;
+}
+
+.bar-graph-one .bar-three .bar {
+    background-color: var(--clr-accent);
+    -webkit-animation: show-bar-three 1.2s 0.3s forwards;
+    -moz-animation: show-bar-three 1.2s 0.3s forwards;
+    animation: show-bar-three 1.2s 0.3s forwards;
+}
+
+.bar-graph-one .bar-four .bar {
+    background-color: var(--clr-accent);
+    -webkit-animation: show-bar-four 1.2s 0.4s forwards;
+    -moz-animation: show-bar-four 1.2s 0.4s forwards;
+    animation: show-bar-four 1.2s 0.4s forwards;
+}
+
+.bar-graph-one .bar-five .bar {
+    background-color: var(--clr-accent);
+    -webkit-animation: show-bar-five 1.2s 0.5s forwards;
+    -moz-animation: show-bar-five 1.2s 0.5s forwards;
+    animation: show-bar-five 1.2s 0.5s forwards;
+}
+
+.bar-graph-one .bar-six .bar {
+    background-color: var(--clr-accent);
+    -webkit-animation: show-bar-six 1.2s 0.6s forwards;
+    -moz-animation: show-bar-six 1.2s 0.6s forwards;
+    animation: show-bar-six 1.2s 0.6s forwards;
+}
+
+.bar-graph-one .bar-seven .bar {
+    background-color: var(--clr-accent);
+    -webkit-animation: show-bar-seven 1.2s 0.7s forwards;
+    -moz-animation: show-bar-seven 1.2s 0.7s forwards;
+    animation: show-bar-seven 1.2s 0.7s forwards;
+}
+
+
+/* Bar Graph Horizontal Animations */
+
+@keyframes show-bar-one {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 20%;
+    }
+}
+
+@keyframes show-bar-two {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 80%;
+    }
+}
+
+@keyframes show-bar-three {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+@keyframes show-bar-four {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+@keyframes show-bar-five {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 60%;
+    }
+}
+
+@keyframes show-bar-six {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 80%;
+    }
+}
+
+@keyframes show-bar-seven {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 60%;
+    }
+}
+
+@keyframes fade-in-text {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+/* .bubbles {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     gap: 0;
@@ -729,7 +918,7 @@ header::before {
     background-color: var(--clr-accent);
     color: var(--clr-light);
     text-align: center;
-}
+} */
 
 
 /* Education */
