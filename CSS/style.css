@@ -422,9 +422,16 @@ header::before {
 
 .my-interests {
     background-color: var(--clr-light);
-    display: grid;
+    display: flex;
     padding: 2em;
     justify-content: center;
+    height: 100vh;
+}
+
+.section__title--interests {
+    color: var(--clr-dark);
+    position: relative;
+    display: block;
 }
 
 .card-flip {
@@ -534,6 +541,7 @@ header::before {
     background-color: var(--clr-dark);
     color: var(--clr-light);
     text-align: center;
+    height: 100vh;
 }
 
 .portfolio {
@@ -673,6 +681,7 @@ header::before {
     align-items: center;
     margin: 0;
     padding: 0;
+    /* height: 100vh; */
 }
 
 
@@ -927,6 +936,7 @@ header::before {
     background-color: var(--clr-light);
     color: var(--clr-dark);
     text-align: center;
+    height: 100vh;
 }
 
 
@@ -938,6 +948,7 @@ header::before {
     text-align: center;
     padding: 2.5em 0;
     font-size: var(--fs-h3);
+    height: 100vh;
 }
 
 .footer a {
