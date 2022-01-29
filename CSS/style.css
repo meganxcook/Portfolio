@@ -686,8 +686,32 @@ header::before {
     gap: 1em;
 }
 
-.strengths-list .values-list {
-    list-style: none;
+.section__title--strengths {
+    text-align: center;
+}
+
+.strengths-values-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2em;
+}
+
+.strengths-card {
+    width: 200px;
+    height: 200px;
+    background-color: var(--clr-light);
+    border-radius: 16px;
+    box-shadow: var(--bs);
+    text-align: center;
+    padding: 1em;
+}
+
+.strengths-card:hover {
+    box-shadow: var(--bs-hover);
+}
+
+.strengths-item {
+    padding-top: .5em;
 }
 
 
