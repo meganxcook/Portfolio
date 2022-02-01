@@ -21,6 +21,7 @@
     --fs-h3: 1.25rem;
     --fs-body: 1rem;
     --bs: 0.25em 0.25em 0.75em rgba(0, 0, 0, .25), 0.125em 0.125em 0.25em rgba(0, 0, 0, .15);
+    --bs-light: 0.25em 0.25em 0.75em rgba(88, 88, 88, 0.25), 0.125em 0.125em 0.25em rgba(88, 88, 88, 0.15);
     --bs-hover: 0.5em 0.5em 1em rgba(0, 0, 0, .25), 0.25em 0.25em 0.5em rgba(0, 0, 0, .15);
     --level-one: translateZ(3rem);
     --level-two: translateZ(6rem);
@@ -84,7 +85,7 @@ strong {
     height: 45px;
     width: 300px;
     background: transparent;
-    color: var(--clr-dark);
+    color: var(--clr-light);
     text-decoration: none;
     text-align: center;
     justify-content: center;
@@ -155,6 +156,7 @@ h3 {
 
 .section__title--intro {
     font-weight: var(--fw-reg);
+    color: var(--clr-light);
 }
 
 .section__title--intro strong {
@@ -207,7 +209,7 @@ header::before {
     right: 0px;
     bottom: 0px;
     left: 0px;
-    opacity: 0.5;
+    opacity: 0.2;
 }
 
 
@@ -589,35 +591,10 @@ header::before {
     text-align: center;
 }
 
-
-/* .my-skills::before {
-    content: "";
-    background-image: url(../images/skills-bg.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0.1;
-} */
-
 .section__title--skills {
     color: var(--clr-accent);
     position: relative;
 }
-
-
-/* .section__title--skills::after {
-    content: '';
-    display: block;
-    width: 2em;
-    height: 1px;
-    margin: 0.5em auto 1em;
-    background: var(--clr-light);
-    opacity: 0.25;
-} */
 
 .skills {
     margin-bottom: 4em;
@@ -642,7 +619,6 @@ header::before {
 
 .skills-cards {
     display: grid;
-    /* grid-template-columns: repeat(3, 1fr); */
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2em;
     justify-content: space-evenly;
@@ -718,14 +694,11 @@ header::before {
 /* Experience */
 
 .my-experience {
-    display: grid;
     position: relative;
     background-color: var(--clr-dark);
     color: var(--clr-light);
-    text-align: center;
-    /* height: 100vh; */
+    height: 100vh;
     width: 100%;
-    text-align: center;
 }
 
 .my-experience::before {
@@ -738,13 +711,59 @@ header::before {
     right: 0px;
     bottom: 0px;
     left: 0px;
-    opacity: 0.1;
+    opacity: 0.2;
+}
+
+.section__title--experience {
+    text-align: center;
+    color: var(--clr-light);
+    position: relative;
+}
+
+
+/* JS bar graph */
+
+.wrap {
+    width: 50%;
+    margin: 0 auto;
+    vertical-align: baseline;
+}
+
+.bar {
+    background: var(--clr-accent);
+    width: 0;
+    margin: .5em 0;
+    color: var(--clr-light);
+    position: relative;
+    transition: width 2s, background .2s;
+    clear: both;
+    box-shadow: var(--bs);
+}
+
+.bar .label {
+    font-size: .753m;
+    padding: 1em;
+    background: var(--clr-dark);
+    width: 15em;
+    display: inline-block;
+    position: relative;
+    z-index: 2;
+    font-weight: bold;
+}
+
+.count {
+    position: absolute;
+    right: .2em;
+    padding: 1em;
+    font-size: .753m;
+    font-weight: bold;
 }
 
 
 /* Bar Graph Horizontal */
 
-.bar-graph .experience-description {
+
+/* .bar-graph .experience-description {
     -webkit-animation: fade-in-text 2.2s 0.1s forwards;
     -moz-animation: fade-in-text 2.2s 0.1s forwards;
     animation: fade-in-text 2.2s 0.1s forwards;
@@ -768,7 +787,7 @@ header::before {
 }
 
 .bar-graph-horizontal .bar {
-    /* border-radius: 3px; */
+    border-radius: 3px;
     height: 55px;
     float: left;
     overflow: hidden;
@@ -835,12 +854,13 @@ header::before {
     -webkit-animation: show-bar-seven 1.2s 0.7s forwards;
     -moz-animation: show-bar-seven 1.2s 0.7s forwards;
     animation: show-bar-seven 1.2s 0.7s forwards;
-}
+} */
 
 
 /* Bar Graph Horizontal Animations */
 
-@keyframes show-bar-one {
+
+/* @keyframes show-bar-one {
     0% {
         width: 0;
     }
@@ -910,7 +930,7 @@ header::before {
     100% {
         opacity: 1;
     }
-}
+} */
 
 
 /* Education */
