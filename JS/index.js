@@ -73,7 +73,7 @@ setTimeout(function start() {
             duration: 2000,
             easing: 'swing',
             step: function(now) {
-                $(this).text(Math.ceil(now) + ' years');
+                $(this).text(Math.ceil(now) + '%');
             }
         });
     });

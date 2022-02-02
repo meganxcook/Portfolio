@@ -721,7 +721,7 @@ header::before {
 }
 
 
-/* JS bar graph */
+/* JS Horizontal Bar Graph */
 
 .wrap {
     width: 50%;
@@ -738,199 +738,36 @@ header::before {
     transition: width 2s, background .2s;
     clear: both;
     box-shadow: var(--bs);
+    overflow: hidden;
 }
 
-.bar .label {
+.bar::after {
+    content: attr(data-years);
+    position: absolute;
+    right: .2em;
     font-size: .753m;
+    font-weight: bold;
+    padding: 1em;
+}
+
+.label {
+    font-size: .753m;
+    font-weight: bold;
     padding: 1em;
     background: var(--clr-dark);
     width: 15em;
     display: inline-block;
     position: relative;
     z-index: 2;
-    font-weight: bold;
 }
 
 .count {
     position: absolute;
-    right: .2em;
+    left: .1em;
     padding: 1em;
     font-size: .753m;
     font-weight: bold;
 }
-
-
-/* Bar Graph Horizontal */
-
-
-/* .bar-graph .experience-description {
-    -webkit-animation: fade-in-text 2.2s 0.1s forwards;
-    -moz-animation: fade-in-text 2.2s 0.1s forwards;
-    animation: fade-in-text 2.2s 0.1s forwards;
-    opacity: 0;
-}
-
-.bar-graph-horizontal {
-    max-width: 600px;
-}
-
-.bar-graph-horizontal>div {
-    float: left;
-    margin-bottom: 8px;
-    width: 100%;
-}
-
-.bar-graph-horizontal .experience-description {
-    float: left;
-    margin-top: 18px;
-    width: 300px;
-}
-
-.bar-graph-horizontal .bar {
-    border-radius: 3px;
-    height: 55px;
-    float: left;
-    overflow: hidden;
-    position: relative;
-    width: 0;
-}
-
-.bar-graph-one .bar::after {
-    -webkit-animation: fade-in-text 2.2s 0.1s forwards;
-    -moz-animation: fade-in-text 2.2s 0.1s forwards;
-    animation: fade-in-text 2.2s 0.1s forwards;
-    color: var(--clr-light);
-    content: attr(data-percentage);
-    font-weight: var(--fw-bold);
-    position: absolute;
-    right: 16px;
-    top: 17px;
-}
-
-.bar-graph-one .bar-one .bar {
-    background-color: var(--clr-accent);
-    -webkit-animation: show-bar-one 1.2s 0.1s forwards;
-    -moz-animation: show-bar-one 1.2s 0.1s forwards;
-    animation: show-bar-one 1.2s 0.1s forwards;
-}
-
-.bar-graph-one .bar-two .bar {
-    background-color: var(--clr-accent);
-    -webkit-animation: show-bar-two 1.2s 0.2s forwards;
-    -moz-animation: show-bar-two 1.2s 0.2s forwards;
-    animation: show-bar-two 1.2s 0.2s forwards;
-}
-
-.bar-graph-one .bar-three .bar {
-    background-color: var(--clr-accent);
-    -webkit-animation: show-bar-three 1.2s 0.3s forwards;
-    -moz-animation: show-bar-three 1.2s 0.3s forwards;
-    animation: show-bar-three 1.2s 0.3s forwards;
-}
-
-.bar-graph-one .bar-four .bar {
-    background-color: var(--clr-accent);
-    -webkit-animation: show-bar-four 1.2s 0.4s forwards;
-    -moz-animation: show-bar-four 1.2s 0.4s forwards;
-    animation: show-bar-four 1.2s 0.4s forwards;
-}
-
-.bar-graph-one .bar-five .bar {
-    background-color: var(--clr-accent);
-    -webkit-animation: show-bar-five 1.2s 0.5s forwards;
-    -moz-animation: show-bar-five 1.2s 0.5s forwards;
-    animation: show-bar-five 1.2s 0.5s forwards;
-}
-
-.bar-graph-one .bar-six .bar {
-    background-color: var(--clr-accent);
-    -webkit-animation: show-bar-six 1.2s 0.6s forwards;
-    -moz-animation: show-bar-six 1.2s 0.6s forwards;
-    animation: show-bar-six 1.2s 0.6s forwards;
-}
-
-.bar-graph-one .bar-seven .bar {
-    background-color: var(--clr-accent);
-    -webkit-animation: show-bar-seven 1.2s 0.7s forwards;
-    -moz-animation: show-bar-seven 1.2s 0.7s forwards;
-    animation: show-bar-seven 1.2s 0.7s forwards;
-} */
-
-
-/* Bar Graph Horizontal Animations */
-
-
-/* @keyframes show-bar-one {
-    0% {
-        width: 0;
-    }
-    100% {
-        width: 20%;
-    }
-}
-
-@keyframes show-bar-two {
-    0% {
-        width: 0;
-    }
-    100% {
-        width: 80%;
-    }
-}
-
-@keyframes show-bar-three {
-    0% {
-        width: 0;
-    }
-    100% {
-        width: 100%;
-    }
-}
-
-@keyframes show-bar-four {
-    0% {
-        width: 0;
-    }
-    100% {
-        width: 100%;
-    }
-}
-
-@keyframes show-bar-five {
-    0% {
-        width: 0;
-    }
-    100% {
-        width: 60%;
-    }
-}
-
-@keyframes show-bar-six {
-    0% {
-        width: 0;
-    }
-    100% {
-        width: 80%;
-    }
-}
-
-@keyframes show-bar-seven {
-    0% {
-        width: 0;
-    }
-    100% {
-        width: 60%;
-    }
-}
-
-@keyframes fade-in-text {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-} */
 
 
 /* Education */
