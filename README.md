@@ -16,7 +16,7 @@ I’ve been a midwife, doula, real estate agent, stay-at-home parent, clinical r
 
 Clients may share that I strive to deliver an exceptional client experience through active listening, informed choice, and managing expectations. Colleagues would tell you about my organized, data-driven approach to every task, my attention to detail, my calm demeanor and optimistic outlook. 
 
-***I excel at collaborating with multiple stakeholders and translating complex challenges into actionable steps and win-win outcomes. In all that I do, I strive to deliver an outstanding client experience through active listening, informed choice, and managing expectations.***
+***I excel at collaborating with multiple stakeholders and translating complex challenges into actionable steps and win-win outcomes.***
 
 Equity in healthcare and reproductive social justice work are topics about which I am deeply passionate. I get fired up about access to quality midwifery care and closing that maternal health care gap. I believe all people should thrive so I like to pair my tech skills with social justice. Seeking a comrade for the revolution?
 
