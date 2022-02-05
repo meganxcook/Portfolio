@@ -20,7 +20,7 @@ Clients may share that I strive to deliver an exceptional client experience thro
 
 Equity in healthcare and reproductive social justice work are topics about which I am deeply passionate. I get fired up about access to quality midwifery care and closing that maternal health care gap. I believe all people should thrive so I like to pair my tech skills with social justice. Seeking a comrade for the revolution?
 
-If you’re hiring and think I'd be a good fit, please check out my [resume](downloads/Resume-MeganCook-12292021-ImplementationSpecialist.pdf) and [start a conversation](mailto:megan@meganxcook.com). If you want to connect or collaborate on a project, please [reach out](mailto:megan@meganxcook.com)!
+If you’re hiring and think I'd be a good fit, please check out my [resume](downloads/Resume-MeganCook-02052022-JuniorProjectManager.pdf) and [start a conversation](mailto:megan@meganxcook.com). If you want to connect or collaborate on a project, please [reach out](mailto:megan@meganxcook.com)!
 
 **PROJECTS**
 
@@ -90,7 +90,7 @@ If you’re hiring and think I'd be a good fit, please check out my [resume](dow
 **CONTACT**
 
 * [Email me](mailto:megan@meganxcook.com)
-* [Download my resume](downloads/Resume-MeganCook_01112022-ImplementationSpecialist_logo.pdf)
+* [Download my resume](downloads/Resume-MeganCook-02052022-JuniorProjectManager.pdf)
 * [View my porfolio](https://www.meganxcook.com)
 * Connect with me on social: 
     * [LinkedIn](https://www.linkedin.com/in/meganxcook/)
