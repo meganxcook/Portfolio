@@ -38,7 +38,7 @@
 }
 
 
-/* General styles */
+/* General Styles */
 
 html {
     scroll-behavior: smooth;
@@ -187,7 +187,7 @@ h3 {
 }
 
 
-/* header */
+/* Header */
 
 header {
     display: flex;
@@ -316,7 +316,7 @@ header::before {
 }
 
 
-/*  Intro section  */
+/*  Intro  */
 
 .intro {
     position: relative;
@@ -369,7 +369,7 @@ header::before {
 }
 
 
-/* about me */
+/* About */
 
 .about-me {
     max-width: 1000px;
@@ -539,7 +539,7 @@ header::before {
 /* @media */
 
 
-/* My Projects */
+/* Projects */
 
 .my-projects {
     background-color: var(--clr-dark);
@@ -578,7 +578,7 @@ header::before {
 }
 
 
-/*  My skills section  */
+/*  Skills  */
 
 .my-skills {
     display: grid;
@@ -721,7 +721,7 @@ header::before {
 }
 
 
-/* JS Horizontal Bar Graph */
+/* Experience Bar Graph */
 
 .wrap {
     width: 50%;
@@ -755,7 +755,7 @@ header::before {
     font-weight: bold;
     padding: 1em;
     background: var(--clr-dark);
-    width: 15em;
+    width: 275px;
     display: inline-block;
     position: relative;
     z-index: 2;
