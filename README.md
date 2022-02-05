@@ -8,19 +8,19 @@ Based in Vancouver, WA, US
 
 **ABOUT**
 
-Hi, I'm Megan Cook, a [PDX Code Guild](https://pdxcodeguild.com/) full stack development bootcamp grad and early career implementation specialist based in [Vancouver, WA](https://www.google.com/maps/place/Vancouver,+WA/@45.6381163,-122.6889994,12z/data=!3m1!4b1!4m5!3m4!1s0x5495af63c85914f9:0x8456d5112c91e3f3!8m2!3d45.6280277!4d-122.673865). I've been coding since early 2021 and actively pursuing a career in tech, exploring pathways in both product and project management.
+Hi, I'm Megan Cook, a [PDX Code Guild](https://pdxcodeguild.com/) full stack development bootcamp grad and aspiring product manager based in [Vancouver, WA](https://www.google.com/maps/place/Vancouver,+WA/@45.6381163,-122.6889994,12z/data=!3m1!4b1!4m5!3m4!1s0x5495af63c85914f9:0x8456d5112c91e3f3!8m2!3d45.6280277!4d-122.673865). I've been coding since early 2021 and pursuing a career in tech since 2019. I'm currently looking for the right long-term fit to begin my career in product management.
 
-I’ve been a midwife, doula, real estate agent, stay-at-home parent, clinical researcher, small business owner and consultant, server, and retail associate. So I guess you could say I come to tech from a non traditional background. 
+I’ve been a midwife, doula, real estate agent, stay-at-home parent, clinical researcher, small business owner and consultant, server, and retail associate. So, you could say I come to tech from a non traditional background. I will bring 10 years of diverse professional experience and a high level of empathy to my next role. 
 
-***Clients and colleagues would describe me as a strong communicator, particularly skilled at collaborating with multiple stakeholders and translating complex challenges into actionable steps and win-win outcomes.***
+***In short, I'm coachable, empathetic, and hungry to learn, collaborate, and contribute.***
 
-Clients may share that I strive to deliver an exceptional client experience through active listening, informed choice, and managing expectations. Colleagues would tell you about my systematic and data-driven approach to every task, my attention to detail, my calm demeanor and optimistic outlook. 
+Clients may share that I strive to deliver an exceptional client experience through active listening, informed choice, and managing expectations. Colleagues would tell you about my organized and data-driven approach to every task, my attention to detail, my calm demeanor and optimistic outlook. 
 
-***In short, I'm coachable, empathetic, and hungry to learn.***
+***I excel at collaborating with multiple stakeholders and translating complex challenges into actionable steps and win-win outcomes. In all that I do, I strive to deliver an outstanding client experience through active listening, informed choice, and managing expectations.***
 
-I get fired up about access to quality midwifery care and closing that maternal health care gap. I believe all people should thrive so I like to pair my tech skills with social justice. Seeking a comrade for the revolution?
+Equity in healthcare and reproductive social justice work are topics about which I am deeply passionate. I get fired up about access to quality midwifery care and closing that maternal health care gap. I believe all people should thrive so I like to pair my tech skills with social justice. Seeking a comrade for the revolution?
 
-If you’re hiring and think I'd be a good fit, please check out my [resume](downloads/Resume-MeganCook-12292021-ImplementationSpecialist.pdf) and [start a conversation](mailto:megan@meganxcook.com). If you just want to connect or collaborate on a project, please [reach out](mailto:megan@meganxcook.com)!
+If you’re hiring and think I'd be a good fit, please check out my [resume](downloads/Resume-MeganCook-12292021-ImplementationSpecialist.pdf) and [start a conversation](mailto:megan@meganxcook.com). If you want to connect or collaborate on a project, please [reach out](mailto:megan@meganxcook.com)!
 
 **PROJECTS**
 
