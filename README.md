@@ -80,7 +80,7 @@ If you’re hiring and think I'd be a good fit, please check out my [resume](dow
 * Operations + Support: 5 years
 * Small Business Marketing: 5 years
 * Clinical Research: 3 years
-* Healthcare: 7 years
+* Healthcare: 6 years
 * Real Estate: 3 years
 
 **EDUCATION**
