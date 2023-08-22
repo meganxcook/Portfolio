@@ -10,7 +10,7 @@ Based in Vancouver, WA, US
 
 Hi, I'm Megan Cook, product manager and [PDX Code Guild](https://pdxcodeguild.com/) bootcamp grad based in [Vancouver, WA](https://www.google.com/maps/place/Vancouver,+WA/@45.6381163,-122.6889994,12z/data=!3m1!4b1!4m5!3m4!1s0x5495af63c85914f9:0x8456d5112c91e3f3!8m2!3d45.6280277!4d-122.673865). I recently completed a year long contract with Adobe as a Growth Product Manager where I ran experiments using desktop notifications to improve the user experience and boost revenue. I've been coding since early 2021 and enjoy building apps, businesses, and websites.
 
-Professionally, I've done a lot. I’ve been a midwife, doula, real estate agent, stay-at-home parent, clinical researcher, small business owner and consultant, server, and retail associate. So, I came to tech from a non traditional background. I bring over 20 years of diverse professional experience, a high level of empathy, a strong desire to build and optimize, and growth knowledge to the table.
+Professionally, I've done a lot. I’ve been a midwife, doula, real estate agent, stay-at-home parent, clinical researcher, small business owner and consultant, server, and retail associate. So, I come to tech from a non-traditional background. I bring over 20 years of diverse professional experience, a high level of empathy, a strong desire to build and optimize, and growth knowledge to the table.
 
 ***In short, I'm coachable, a strong communicator, and hungry to learn, collaborate, and contribute.***
 
