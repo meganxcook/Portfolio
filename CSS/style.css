@@ -179,7 +179,8 @@ h3 {
 }
 
 .section__subtitle--projects,
-.section__subtitle--skills {
+.section__subtitle--skills,
+.section__subtitle--interests {
     color: var(--clr-accent);
     font-weight: var(--fw-bold);
     margin-bottom: 2em;
@@ -421,14 +422,14 @@ header::before {
 
 .my-interests {
     width: 100%;
-    height: 100vh;
-    background-color: var(--clr-light);
-    color: var(--clr-accent);
+    height: 120vh;
+    background-color: var(--clr-dark);
+    color: var(--clr-light);
     text-align: center;
 }
 
 .section__title--interests {
-    color: var(--clr-dark);
+    color: var(--clr-light);
     position: relative;
 }
 
@@ -439,8 +440,8 @@ header::before {
 }
 
 .card-flip {
-    width: 375px;
-    height: 500px;
+    width: 325px;
+    height: 450px;
 }
 
 .card-flip__content {
@@ -477,16 +478,16 @@ header::before {
     border-radius: 16px;
 }
 
-.card-flip__front-personal {
+.card-flip__front-things {
     background-image: url(../images/sebastian-ervi-uCZVEo8iT9Q-unsplash.jpg);
 }
 
-.card-flip__front-professional {
-    background-image: url(../images/andrew-neel-cckf4TsHAuw-unsplash.jpg);
+.card-flip__front-albums {
+    background-image: url(../images/erik-mclean-QzpgqElvSiA-unsplash.jpg);
 }
 
-.card-flip__front-restaurant {
-    background-image: url(../images/jae-park-Cq-6UiL_i-U-unsplash.jpg);
+.card-flip__front-books {
+    background-image: url(../images/ashim-d-silva-P8gLaJ-PZL0-unsplash.jpg);
 }
 
 .card-flip__front::before {
@@ -542,8 +543,8 @@ header::before {
 /* Projects */
 
 .my-projects {
-    background-color: var(--clr-dark);
-    color: var(--clr-light);
+    background-color: var(--clr-light);
+    color: var(--clr-dark);
     text-align: center;
     height: 100vh;
 }
@@ -586,7 +587,7 @@ header::before {
     position: relative;
     /* height: 100vh; */
     width: 100%;
-    background-color: var(--clr-light);
+    background-color: var(--clr-dark);
     color: var(--clr-accent);
     text-align: center;
 }
@@ -635,7 +636,7 @@ header::before {
     background-color: var(--clr-accent);
     color: var(--clr-light);
     border-radius: 16px;
-    box-shadow: var(--bs);
+    box-shadow: var(--bs-light);
     /* opacity: .8; */
 }
 
@@ -697,7 +698,7 @@ header::before {
     position: relative;
     background-color: var(--clr-dark);
     color: var(--clr-light);
-    height: 100vh;
+    height: 120vh;
     width: 100%;
 }
 
@@ -795,7 +796,7 @@ header::before {
     text-align: center;
     padding: 2.5em 0;
     font-size: var(--fs-h3);
-    height: 100vh;
+    height: 120vh;
 }
 
 .footer a {
