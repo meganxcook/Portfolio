@@ -2,30 +2,30 @@
 
 **INTRO**
 
-Megan Cook | Coding Bootcamp Grad
+Megan Cook | Product Manager
 
 Based in Vancouver, WA, US
 
 **ABOUT**
 
-Hi, I'm Megan Cook, a [PDX Code Guild](https://pdxcodeguild.com/) full stack development bootcamp grad and aspiring product manager based in [Vancouver, WA](https://www.google.com/maps/place/Vancouver,+WA/@45.6381163,-122.6889994,12z/data=!3m1!4b1!4m5!3m4!1s0x5495af63c85914f9:0x8456d5112c91e3f3!8m2!3d45.6280277!4d-122.673865). I've been coding since early 2021 and pursuing a career in tech since 2019. I'm currently looking for the right long-term fit to begin my career in product management.
+Hi, I'm Megan Cook, product manager and [PDX Code Guild](https://pdxcodeguild.com/) bootcamp grad based in [Vancouver, WA](https://www.google.com/maps/place/Vancouver,+WA/@45.6381163,-122.6889994,12z/data=!3m1!4b1!4m5!3m4!1s0x5495af63c85914f9:0x8456d5112c91e3f3!8m2!3d45.6280277!4d-122.673865). I recently completed a year long contract with Adobe as a Growth Product Manager where I ran experiments using desktop notifications to improve the user experience and boost revenue. I've been coding since early 2021 and enjoy building apps, businesses, and websites.
 
-I’ve been a midwife, doula, real estate agent, stay-at-home parent, clinical researcher, small business owner and consultant, server, and retail associate. So, you could say I come to tech from a non traditional background. I will bring 10 years of diverse professional experience and a high level of empathy to my next role. 
+Professionally, I've done a lot. I’ve been a midwife, doula, real estate agent, stay-at-home parent, clinical researcher, small business owner and consultant, server, and retail associate. So, I came to tech from a non traditional background. I bring over 20 years of diverse professional experience, a high level of empathy, a strong desire to build and optimize, and growth knowledge to the table.
 
-***In short, I'm coachable, empathetic, and hungry to learn, collaborate, and contribute.***
+***In short, I'm coachable, a strong communicator, and hungry to learn, collaborate, and contribute.***
 
-Clients may share that I strive to deliver an exceptional client experience through active listening, informed choice, and managing expectations. Colleagues would tell you about my organized, data-driven approach to every task, my attention to detail, my calm demeanor and optimistic outlook. 
+Clients and colleagues may share that I strive to deliver an exceptional experience through active listening, informed choice, and managing expectations. They may tell you about my organized, data-driven approach to every task, my attention to detail, my calm demeanor and optimistic outlook.
 
 ***I excel at collaborating with multiple stakeholders and translating complex challenges into actionable steps and win-win outcomes.***
 
 Equity in healthcare and reproductive social justice work are topics about which I am deeply passionate. I get fired up about access to quality midwifery care and closing that maternal health care gap. I believe all people should thrive so I like to pair my tech skills with social justice. Seeking a comrade for the revolution?
 
-If you’re hiring and think I'd be a good fit, please check out my [resume](downloads/Resume-MeganCook-02052022-JuniorProjectManager.pdf) and [start a conversation](mailto:megan@meganxcook.com). If you want to connect or collaborate on a project, please [reach out](mailto:megan@meganxcook.com)!
+If you’re hiring and think I'd be a good fit, please check out my [resume](downloads/Megan%20Cook%20-%20Product%20Manager.pdf) and [pitch deck](downloads/Megan%20Cook_%20Pitch%20Deck%20v2.pdf) and [start a conversation](mailto:megan@meganxcook.com). If you want to connect or collaborate on a project, please [reach out](mailto:megan@meganxcook.com)!
 
 **PROJECTS**
 
 1. [C. Cook LLC](https://www.ccookllc.com/)
-    * Website for a residential contracting business.
+    * Lead generation website for a residential contracting company.
         * HTML
         * CSS
         * Squarespace
@@ -46,36 +46,33 @@ If you’re hiring and think I'd be a good fit, please check out my [resume](dow
 
 **SKILLS**
 
-1. Languages + Frameworks:
+1. Tech Stack:
     * Python
-    * Flask
     * Django
-    * Bootstrap
-2. Web Design:
-    * HTML5
-    * CSS3
+    * HTML
+    * CSS
     * JavaScript
-3. Tools + Methodologies:
-    * VS Code
     * GitHub
-    * Jira
-    * Google Suite
-    * MS Office
-    * CRM Software
+2. Methodologies:
     * Agile
-4. Interpersonal:
+    * Scrum
+    * Jira
+3. Interpersonal:
+    * Stakeholder Management
     * Empathy
-    * Teamwork
     * Active Listening
-    * Expectation Management
-5. Professional:
-    * Project Management
-    * Process Improvement
-    * Client Consulting
-    * Documentation
+    * Accountability
+5. Product:
+    * Product Management
+    * Process Optimization
+    * A/B Testing
+    * Growth Experimentation
+    * Strategic Roadmaps
+    * Research
 
 **EXPERIENCE**
-* Full Stack Development: 1 year
+* Product Management: 1 year
+* Full Stack Development: 2 years
 * Client Consulting: 4 years
 * Operations + Support: 5 years
 * Small Business Marketing: 5 years
@@ -90,11 +87,10 @@ If you’re hiring and think I'd be a good fit, please check out my [resume](dow
 **CONTACT**
 
 * [Email me](mailto:megan@meganxcook.com)
-* [Download my resume](downloads/Resume-MeganCook-02052022-JuniorProjectManager.pdf)
+* [Download my resume](downloads/Megan%20Cook%20-%20Product%20Manager.pdf)
+* [View my pitch deck](downloads/Megan%20Cook_%20Pitch%20Deck%20v2.pdf)
 * [View my porfolio](https://www.meganxcook.com)
 * Connect with me on social: 
     * [LinkedIn](https://www.linkedin.com/in/meganxcook/)
     * [GitHub](https://github.com/meganxcook)
     * [CodePen](https://codepen.io/meganxcook)
-    * [Twitter](https://twitter.com/meganxcook_)
-    * [Instagram](https://www.instagram.com/meganxcook/)
